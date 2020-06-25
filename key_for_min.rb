@@ -6,7 +6,7 @@
 def key_for_min_value(name_hash)
   output_key = nil  
   name_hash.each do |key, value|
-    if value<501
+    if value<11
       output_key = key 
     end
   end
